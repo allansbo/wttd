@@ -16,7 +16,7 @@ git clone https://github.com/allansbo/wttd.git
 cd wttd
 python -m venv .wttd
 source .wttd/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 cp contrib/sample-env .env
 python manage.py test
 ```
@@ -27,7 +27,7 @@ git clone https://github.com/allansbo/wttd.git
 cd wttd
 python -m venv .wttd
 source .wttd/Scripts/activate.bat
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 cp contrib/sample-env .env
 python manage.py test
 ```

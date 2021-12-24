@@ -10,7 +10,7 @@ class SubscriptionModelAdmin(admin.ModelAdmin):
     list_display = fields
     date_hierarchy = 'created_at'
     search_fields = fields
-    list_filter = 'created_at'
+    list_filter = ('created_at',)
 
     def subscribed_today(self, obj):
         return obj.created_at == now().date()

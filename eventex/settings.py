@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 
     # local apps
     'eventex.core.apps',
-    'eventex.subscriptions',
+    'eventex.subscriptions.apps.SubscriptionsConfig',
 ]
 
 MIDDLEWARE = [

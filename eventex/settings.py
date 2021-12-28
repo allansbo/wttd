@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'django_extensions',
 
     # local apps
-    'eventex.core.apps',
+    'eventex.core',
     'eventex.subscriptions.apps.SubscriptionsConfig',
 ]
 

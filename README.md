@@ -1,3 +1,6 @@
+### Projeto faz parte de uma trilha de aprendizado do curso [Welcome to the Django](https://henriquebastos.net/produtos/welcome-to-the-django).
+Para ter acesso ao projeto final, utilize o link (https://eventex-allansbo.herokuapp.com/)
+
 # Eventex
 
 Sistema de Eventos encomendado pela Morena
